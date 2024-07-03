@@ -1,7 +1,6 @@
 #read the XML in the folder and do xml_to_csv to parse and save XML to xlsx(not csv).
 from lxml import etree
 import pandas as pd
-
 from parse import xml_to_csv
 path = "E:\\DataForPaper\Pubmed\correct\pubmed24n"
 target = ""
