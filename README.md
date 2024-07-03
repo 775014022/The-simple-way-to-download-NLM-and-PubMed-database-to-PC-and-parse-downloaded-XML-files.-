@@ -12,6 +12,7 @@ Step2: Unzipping the Downloaded .xml.gz Files
 Tool: WinRAR
 Potential Issues and Solutions: If the file fails to uncompress, re-download the problematic file or perform an MD5 checksum validation of the downloaded file against the original to ensure integrity.
 
-Step3: Parsing the XML Files and  with Python
+Step3: Parsing the XML Files and transform them into xlsx files with Python.
+
 
 
