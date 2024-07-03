@@ -5,7 +5,7 @@ import pandas as pd
 from found_function import directfind,allfind,sub_allfind
 import openpyxl
 from get_function import get_pubdate,get_authorname,get_grant,get_PublicationType,get_Chemical,get_MeshHeading,get_Abstract,get_OtherAbstract,get_Keyword,get_ArticleId,get_Reference
-def xml_to_csv(file, target):
+def xml_to_xlsx(file, target):
     data = etree.parse(file)
     root = data.getroot()
     pubmedarticles = root.findall(".PubmedArticle")
@@ -182,4 +182,4 @@ def xml_to_csv(file, target):
 
 
 if __name__ == '__main__':
-    xml_to_csv("C:\\Users\lhthn\Desktop\pubmed24n1213.xml","test.xlsx")
+    xml_to_xlsx("C:\\Users\lhthn\Desktop\pubmed24n1213.xml","test.xlsx")
