@@ -1,3 +1,4 @@
+#read the XML in the folder and do xml_to_csv to parse and save XML to xlsx(not csv).
 from lxml import etree
 import pandas as pd
 
