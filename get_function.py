@@ -1,4 +1,5 @@
 #functions to parse and  Articles' Attribute values
+
 from found_function import directfind,allfind,sub_allfind
 
 def get_pubdate(pubdate):
