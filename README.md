@@ -13,6 +13,6 @@ Tool: WinRAR
 Potential Issues and Solutions: If the file fails to uncompress, re-download the problematic file or perform an MD5 checksum validation of the downloaded file against the original to ensure integrity.
 
 Step3: Parsing the XML Files and transform them into xlsx files with Python.
-
+In to_xlsx.py, modify the path where you store the XLM files you have downloaded and the target_i where you want to save the xlsx files
 
 
